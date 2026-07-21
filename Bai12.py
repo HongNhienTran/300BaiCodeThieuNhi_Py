@@ -20,8 +20,8 @@ def solve_system_of_equations(a1, b1, c1, a2, b2, c2):
             return "Hệ phương trình VÔ NGHIỆM."
 
 try:
-    a1, b1, c1 = map(float, input("Nhap a1, b1, c1: ").split())
-    a2, b2, c2 = map(float, input("Nhap a2, b2, c2: ").split())
+    a1, b1, c1 = map(float, input("Nhập a1, b1, c1: ").split())
+    a2, b2, c2 = map(float, input("Nhập a2, b2, c2: ").split())
 
     result = solve_system_of_equations(a1, b1, c1, a2, b2, c2)
     print(result)
